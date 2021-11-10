@@ -16,7 +16,6 @@
    * FIXED: Use midgard::unaligned_read in GraphTileBuilder::AddSigns [#3456](https://github.com/valhalla/valhalla/pull/3456)
 
 * **Enhancement**
-   * ADDED: Ondemand elevation tile fetching [#3391(https://github.com/valhalla/valhalla/pull/3391)
    * CHANGED: Pronunciation for names and destinations [#3132](https://github.com/valhalla/valhalla/pull/3132)
    * CHANGED: Requested code clean up for phonemes PR [#3356](https://github.com/valhalla/valhalla/pull/3356)
    * CHANGED: Refactor Pronunciation class to struct [#3359](https://github.com/valhalla/valhalla/pull/3359)
@@ -41,6 +40,7 @@
    * CHANGED: remove boost from dependencies and add conan as prep for #3346 [#3459](https://github.com/valhalla/valhalla/pull/3459)
    * CHANGED: Remove boost.program_options in favor of cxxopts header-only lib and use conan to install header-only boost. [#3346](https://github.com/valhalla/valhalla/pull/3346)
    * CHANGED: Moved all protos to proto3 for internal request/response handling [#3457)(https://github.com/valhalla/valhalla/pull/3457)
+   * ADDED: On-demand elevation tile fetching [#3391](https://github.com/valhalla/valhalla/pull/3391)
 
 ## Release Date: 2021-10-07 Valhalla 3.1.4
 * **Removed**
